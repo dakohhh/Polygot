@@ -1,0 +1,15 @@
+.input-container{
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex; /* Use flexbox for better alignment */
+    justify-content: center; /* Center the input field horizontally */
+    align-items: center;
+    border-radius: 3px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}

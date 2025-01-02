@@ -1,0 +1,14 @@
+.input-container,
+.language-select,
+.output-container {
+    margin-bottom: 20px;
+}
+
+
+label {
+    color: black;
+}
+
+option {
+    color: black;
+}

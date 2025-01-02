@@ -1,0 +1,22 @@
+.image-container {
+    position: relative; /* Position container relative to allow absolute positioning */
+    width: 1300px; /* Set your desired width */
+    height: 300px; /* Set your desired height */
+    margin: 0;
+}
+  
+  .image-overlay {
+    position: absolute; /* Position images absolutely inside the container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure images fill the container */
+    height: 100%; /* Ensure images fill the container */
+    object-fit: cover; /* Optional: ensures images fill the container without distortion */
+  }
+  
+  .second-image {
+    top: 20px; /* Move the second image down by 20px (adjust as needed) */
+    left: 20px; /* Optionally, move the second image horizontally */
+    opacity: 0.8; /* Optional: make the second image semi-transparent */
+  }
+  
