@@ -1,6 +1,6 @@
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosHeaders } from "axios";
 
-const baseURL = import.meta.env.VITE_BACKEND_BASE_URL;
+const baseURL = "https://pollygot-ai-worker.wiizzydreadmill.workers.dev";
 
 
 // Set the headers
