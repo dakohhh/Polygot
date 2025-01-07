@@ -34,8 +34,9 @@ export async function displayTranslation() {
 
   const translation = await translateText(textInput.value, language);
 
-  textarea.value = translation;
-
+  if (translation){
+    textarea.value = translation;
+  }
 }
 
 
