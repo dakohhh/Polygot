@@ -1,5 +1,5 @@
 // <div class="container">
-import './container.css';
+import './../Container/Container.css';
 import { createButton, clearOutput, displayTranslation } from '../button/Button';
 import { createInputContainer } from '../InputContainer/InputContainer';
 import { createLanguageSelect } from '../LangaugeSelect/LanguageSelect';
